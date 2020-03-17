@@ -1,0 +1,6 @@
+framework module CSBusQRCodeSDKForWDCS {
+  umbrella header "CSBusQRCodeSDKForWDCS.h"
+
+  export *
+  module * { export * }
+}
