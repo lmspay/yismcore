@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  A Security core library for lmspay. 
+  A security core library for lmspay. 
                    DESC
 
   spec.homepage     = "https://github.com/lmspay/yismcore"
@@ -123,7 +123,7 @@ Pod::Spec.new do |spec|
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
 
-  spec.vendored_frameworks = 'CSBusQRCodeSDKForWDCS.framework'
+  spec.vendored_frameworks = 'yismcore/yismcore.framework'
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
