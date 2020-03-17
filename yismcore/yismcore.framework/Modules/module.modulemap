@@ -1,0 +1,6 @@
+framework module yismcore {
+  umbrella header "yismcore.h"
+
+  export *
+  module * { export * }
+}
