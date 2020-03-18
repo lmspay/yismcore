@@ -117,13 +117,14 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
+  spec.vendored_frameworks = 'yismcore/yismcore.framework'
+
   # spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
-  # spec.library   = "iconv"
+  spec.library   = "c++.1"
   # spec.libraries = "iconv", "xml2"
 
-  spec.vendored_frameworks = 'yismcore/yismcore.framework'
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
